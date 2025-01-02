@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="styles/converter.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="converter.html" class="active">Converter</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="converter">
+            <h1>Currency Converter</h1>
+            <p>Convert currencies with live exchange rates.</p>
+            <input type="number" id="amount" placeholder="Enter amount">
+            <select id="from-currency"></select>
+            <select id="to-currency"></select>
+            <button id="convert-btn">Convert</button>
+            <div id="conversion-result"></div>
+        </section>
+    </main>
+    <script src="scripts/converter.js" defer></script>
+</body>
+</html>
